@@ -12,6 +12,7 @@
 		3C25D8852232EF86000293FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C25D8832232EF86000293FF /* Main.storyboard */; };
 		3C25D8872232EF89000293FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C25D8862232EF89000293FF /* Assets.xcassets */; };
 		3C25D88A2232EF89000293FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C25D8882232EF89000293FF /* LaunchScreen.storyboard */; };
+		3C25D8922232F094000293FF /* NumberClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3C25D8912232F094000293FF /* NumberClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3C25D8862232EF89000293FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C25D8892232EF89000293FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C25D88B2232EF89000293FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C25D8912232F094000293FF /* NumberClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = NumberClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				3C25D87F2232EF86000293FF /* AppDelegate.swift */,
 				3C25D8812232EF86000293FF /* ViewController.swift */,
+				3C25D8912232F094000293FF /* NumberClassifier.mlmodel */,
 				3C25D8832232EF86000293FF /* Main.storyboard */,
 				3C25D8862232EF89000293FF /* Assets.xcassets */,
 				3C25D8882232EF89000293FF /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C25D8922232F094000293FF /* NumberClassifier.mlmodel in Sources */,
 				3C25D8822232EF86000293FF /* ViewController.swift in Sources */,
 				3C25D8802232EF86000293FF /* AppDelegate.swift in Sources */,
 			);
